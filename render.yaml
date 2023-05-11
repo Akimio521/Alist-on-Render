@@ -3,7 +3,7 @@ services:
   - type: web
     name: alist
     env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
+    repo: https://github.com/zui-lang/Alist-on-Render.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
