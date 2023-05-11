@@ -10,7 +10,7 @@ Branch（分支）选择PostgreSQL
 ### MySQL数据库
 Branch（分支）选择MySQL
 ## 详细教程
-欢迎来到我的[博客](https://blog.zuilang.tk/posts/16273/）
+欢迎来到我的[博客](https://blog.zuilang.tk/posts/16273/)
 ## 原仓库
 [Github](https://github.com/alist-org/alist-render)
 ## 数据库推荐
