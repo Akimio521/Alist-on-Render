@@ -1,5 +1,5 @@
 # Alist-on-Render
-- 在Render上部署Alst
+- 在Render上部署AList
 - Alist版本v3
 ## 一键部署
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
