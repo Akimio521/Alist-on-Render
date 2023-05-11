@@ -11,8 +11,7 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-         value: postgres
-        sync: false
+        value: postgres
       - key: DB_HOST
         # value: db_host
         sync: false
@@ -29,8 +28,6 @@ services:
         # value: db_name
         sync: false
       - key: DB_TABLE_PREFIX
-         value: xlist_
-        sync: false
+        value: xlist_
       - key: CDN
-         value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
+        value: https://npm.elemecdn.com/alist-web@$version/dist
