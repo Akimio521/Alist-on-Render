@@ -11,7 +11,7 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-         value: mysql
+        value: mysql
         sync: false
       - key: DB_HOST
         # value: db_host
@@ -29,8 +29,8 @@ services:
         # value: db_name
         sync: false
       - key: DB_TABLE_PREFIX
-         value: xlist_
+        value: xlist_
         sync: false
       - key: CDN
-         value: https://npm.elemecdn.com/alist-web@$version/dist
+        value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
