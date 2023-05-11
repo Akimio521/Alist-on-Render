@@ -1,14 +1,22 @@
-# alist-render
-
-### Deploy Alist to Render
+# Alist-on-Render
+- 在Render上部署Alst
+- Alist版本v3
+## 一键部署
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
-### database
-You may need to use another remote MySQL database as instance restarts will lose data.
-Recommended Free MySQL Databases:
-- https://db4free.net/
-- https://remotemysql.com/
-- https://www.freesqldatabase.com/
-
-### password
-The initial password is randomly generated, and you can get it by checking the `logs`.
+### 原版
+Branch（分支）选择main
+### PostgreSQL数据库
+Branch（分支）选择PostgreSQL
+### MySQL数据库
+Branch（分支）选择MySQL
+## 详细教程
+欢迎来到我的[博客](https://blog.zuilang.tk/posts/16273/）
+## 原仓库
+[Github](https://github.com/alist-org/alist-render)
+## 数据库推荐
+- [bit.io](https://bit.io/)
+- [db4free](https://db4free.net/)
+- [remotemysql](https://remotemysql.com/)
+- [freesqldatabase](https://www.freesqldatabase.com/)
+## 密码
+初始密码是随机生成的，可以查看日志获取，或是查看数据库的表格
