@@ -12,7 +12,6 @@ services:
         value: 5244
       - key: DB_TYPE
         value: mysql
-        sync: false
       - key: DB_HOST
         # value: db_host
         sync: false
@@ -30,7 +29,5 @@ services:
         sync: false
       - key: DB_TABLE_PREFIX
         value: xlist_
-        sync: false
       - key: CDN
         value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
