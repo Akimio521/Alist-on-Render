@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: xlist
     env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
+    repo: https://github.com/zui-lang/Alist-on-Render.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
@@ -11,7 +11,7 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-        # value: sqlite3
+         value: postgres
         sync: false
       - key: DB_HOST
         # value: db_host
@@ -29,8 +29,8 @@ services:
         # value: db_name
         sync: false
       - key: DB_TABLE_PREFIX
-        # value: alist_
+         value: xlist_
         sync: false
       - key: CDN
-        # value: https://npm.elemecdn.com/alist-web@$version/dist
+         value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
